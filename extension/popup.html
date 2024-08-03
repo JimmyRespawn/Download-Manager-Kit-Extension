@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DMK Interceptor Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: top;
+            height: 80vh;
+        }
+ 	 .container {
+            background-color: #fff;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            min-width: 300px; 
+	    min-height:100px;
+        }
+        h1 {            
+font-size: 18px;
+            color: #333;
+        }
+        label {
+            font-size: 14px;
+            color: #555;
+        }
+        input[type="checkbox"] {
+            margin-left: 10px;
+            transform: scale(1.5);
+        }  .download-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .download-link:hover {
+            text-decoration: underline;
+        }  .download-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .download-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DMK Interceptor Settings</h1>
+        <label>
+            Enable Download Interceptor
+            <input type="checkbox" id="toggleDownloadInterceptor">
+        </label>
+        <a href="https://apps.microsoft.com/detail/9mx6kd8wgwgp?launch=true&mode=full" class="download-link">Get Download Manager Kit</a>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
