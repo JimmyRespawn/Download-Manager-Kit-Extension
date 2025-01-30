@@ -5,7 +5,7 @@ Integrate Download Manager Kit with Google Chrome, Chromium and Edge.
 1. Intsall Download Manager Kit
 <p align="left">
   <a href="https://www.microsoft.com/store/productId/9mx6kd8wgwgp?ocid=pdpshare" target="_blank">
-    <img src="https://github.com/jenius-apps/ambie/raw/main/images/storeBadge.png" width="200" alt="Store link" />
+    <img src="https://raw.githubusercontent.com/JimmyRespawn/IPTV-Fluent/refs/heads/main/storeBadge.png" width="200" alt="Store link" />
   </a>
 </p>
 2. Install download-manager-kit-extension and enable download intercept in extension popup
